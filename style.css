@@ -1,0 +1,55 @@
+/* Font faces */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* End of font faces */
+
+/* root */
+:root {
+   --background: rgb(219, 219, 219);
+   --background-2: rgb(96, 227, 107);
+   --background-3: rgb(149, 226, 127);
+   --background-4: rgb(104, 255, 96);
+   /* font */
+   --font: rgb(69, 69, 69);
+   --font2: rgb(233, 109, 109);
+   --font3: rgb(143, 227, 121);
+}
+
+/* other */
+.bar {
+   margin-left: 6%;
+}
+
+body {
+    background: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    color: var(--font);
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* navbar */
+#navbar a {
+    color: var(--font);
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    color: var(--font2);
+}
+
+#navbar a i {
+    font-size: 32px;
+}
+
+#navbar .menu i {
+    font-size: 15px;
+}
